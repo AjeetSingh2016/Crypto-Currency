@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #1a1a1c;
+    color: #fff;
+}
+.coin-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.coin-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coin-search h1{
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coin-search input{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    background-color: #fff;
+    width: 250px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    color: black;
 }
